@@ -12,6 +12,4 @@ Write:
 
 Release:
 
-1. Make sure you have `h2` alias in SSH config
-
-2. `make deploy`
+1. `make deploy`
