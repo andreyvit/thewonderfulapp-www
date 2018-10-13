@@ -19,11 +19,9 @@ help:
 initial: reconfigure deploy
 
 reconfigure:
-	scp _deploy/wonderfulapp-www.sh "$(server):~/"
-	ssh $(server) 'bash ~/wonderfulapp-www.sh --reconfigure'
+	ssh $(server) 'bash -s -- --reconfigure' < _deploy/wonderfulapp-www.sh
 
 deploy:
 	cd site; hugo
 	rsync -avz --delete site/public/ "$(server):~/wonderfulapp-www/"
-	scp _deploy/wonderfulapp-www.sh '$(server):~/'
-	ssh $(server) 'bash ~/wonderfulapp-www.sh --deploy'
+	ssh $(server) 'bash -s -- --deploy' <  _deploy/wonderfulapp-www.sh
