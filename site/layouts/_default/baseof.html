@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html{{ with .Site.LanguageCode }} lang="{{.}}"{{ end }}>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
+    {{ $styles := resources.Get "styles/styles.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        {{ partial "nav" . }}
+
+        {{ block "main" . }}
+        {{ end }}
+    </div>
+
+    <section class="section">
+        <div class="container has-text-centered">
+            <p>{{ .Site.Copyright | safeHTML }}</p>
+        </div>
+    </section>
+</body>
+</html>

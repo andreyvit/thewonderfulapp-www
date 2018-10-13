@@ -1,0 +1,13 @@
+baseURL = "https://thewonderfulapp.com/"
+languageCode = "en-us"
+title = "Wonderful To-Do App"
+copyright = "© 2018 <a href=\"https://github.com/andreyvit\">Andrey Tarantsov</a> and <a href=\"https://github.com/dottedmag\">Mikhail Gusarov</a>"
+
+[params]
+
+[params.highlight]
+  style = "zenburn"
+
+[[params.social]]
+  url = "https://github.com/andreyvit"
+  fa_icon = "fab fa-github"
