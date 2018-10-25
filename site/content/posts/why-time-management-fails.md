@@ -16,17 +16,17 @@ regularely. Why can't we just stick to one of them and stop rehashing the same
 ideas?
 
 I have jumped from one method to another a fair amount of times, and finally
-settled on a hybrid of (GTD)[https://en.wikipedia.org/wiki/Getting_Things_Done]
-and (Lights spreadsheet)[https://www.ultraworking.com/lights/] with a healthy
-dose of (The Checklist
-Manifesto)[http://atulgawande.com/book/the-checklist-manifesto/] thrown in.
+settled on a hybrid of [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done)
+and [Lights spreadsheet](https://www.ultraworking.com/lights/) with a healthy
+dose of [The Checklist
+Manifesto](http://atulgawande.com/book/the-checklist-manifesto/) thrown in.
 
 The fact that I had to combine three different systems (including one claiming
 universality) in order to get a working setup might give a clue: are we
 oversimplifying things?
 
-if you look at lists like (Best Time Management
-Techniques)[https://clockify.me/time-management-techniques], you'll notice that
+if you look at lists like [Best Time Management
+Techniques](https://clockify.me/time-management-techniques), you'll notice that
 every technique or method has an area of applicability, and cannot be used as a
 fully featured system with no need of supplemental ones.
 
