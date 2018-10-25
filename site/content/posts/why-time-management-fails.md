@@ -7,6 +7,7 @@ date: "2018-10-17"
 categories:
 - Musings
 menu: main
+author: dottedmag
 ---
 
 There are hundreds of time- and task-management methodologies, techniques and

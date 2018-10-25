@@ -7,6 +7,7 @@ date: "2018-10-13"
 categories:
 - Product Updates
 menu: main
+author: andreyvit
 ---
 
 All to-do apps suck.
